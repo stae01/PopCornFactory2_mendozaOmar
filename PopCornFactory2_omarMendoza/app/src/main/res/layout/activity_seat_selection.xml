@@ -368,7 +368,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:paddingHorizontal="@dimen/hpradiogroup"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="@dimen/symbols"
@@ -414,7 +414,15 @@
             android:layout_marginLeft="5dp"
             android:textColor="@color/white"/>
 
-        <Button
+        
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/round_button"
@@ -425,12 +433,6 @@
             android:layout_gravity="center_horizontal"
             android:paddingHorizontal="70dp"/>
 
-
-
-
-
-
-    </LinearLayout>
 
 
 
